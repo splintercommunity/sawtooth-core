@@ -1,7 +1,7 @@
 
-![Hyperledger Sawtooth](images/sawtooth_logo_light_blue-small.png)
+![Sawtooth](images/sawtooth_logo_light_blue-small.png)
 
-Hyperledger Sawtooth Core Developer's Setup Guide
+Sawtooth Core Developer's Setup Guide
 =============
 
 If you are planning to contribute code to the Sawtooth project, please review
@@ -151,7 +151,7 @@ Open a terminal and run the following commands:
    $ cd $HOME
    $ mkdir sawtooth
    $ cd sawtooth
-   $ git clone https://github.com/hyperledger/sawtooth-core.git
+   $ git clone https://github.com/splintercommunity/sawtooth-core
 ```
 
 Step Four: Build Docker Images
