@@ -28,8 +28,8 @@ setup(
     version=subprocess.check_output(
         ['../bin/get_version']).decode('utf-8').strip(),
     description='Sawtooth Integration',
-    author='Hyperledger Sawtooth',
-    url='https://github.com/hyperledger/sawtooth-core',
+    author='Sawtooth',
+    url='https://github.com/splintercommunity/sawtooth-core',
     packages=find_packages(),
     install_requires=[],
     data_files=data_files,
