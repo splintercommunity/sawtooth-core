@@ -23,7 +23,7 @@ Standards-Version: 3.9.2
 
 Package: sawtooth
 Version: @VERSION@
-Maintainer: Hyperledger Sawtooth <distributedledger@intel.com>
+Maintainer: Sawtooth <unknown@unknown>
 # Pre-Depends: <comma-separated list of packages>
 Depends: python3-sawtooth-cli, python3-sawtooth-intkey, python3-sawtooth-rest-api, python3-sawtooth-sdk, python3-sawtooth-validator, python3-sawtooth-xo, sawtooth-identity-tp, sawtooth-settings-tp
 # Recommends: <comma-separated list of packages>
@@ -38,4 +38,4 @@ Depends: python3-sawtooth-cli, python3-sawtooth-intkey, python3-sawtooth-rest-ap
 # Extra-Files: <comma-separated list of additional files for the doc directory>
 # Files: <pair of space-separated paths; First is file to include, second is destination>
 #  <more pairs, if there's more than one file to include. Notice the starting space>
-Description: Hyperledger Sawtooth Distributed Ledger
+Description: Sawtooth Distributed Ledger
