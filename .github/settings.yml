@@ -16,8 +16,8 @@ repository:
   # See https://developer.github.com/v3/repos/#edit for all available settings.
   name: sawtooth-core
   description: Core repository for Sawtooth Distributed Ledger
-  homepage: https://wiki.hyperledger.org/display/sawtooth
-  topics: hyperledger, distributed-ledger, sawtooth, sawtooth-lake
+  homepage: https://sawtooth.splinter.dev/
+  topics: distributed-ledger, sawtooth, sawtooth-lake
   private: false
   has_issues: true
   has_projects: false
