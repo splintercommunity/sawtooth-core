@@ -14,7 +14,7 @@
 # ------------------------------------------------------------------------------
 
 # Description:
-#   Builds an image with the Hyperledger Sawtooth Validator installed and
+#   Builds an image with the Sawtooth Validator installed and
 #   the clam anti-virus scanner.
 #
 # Build:
