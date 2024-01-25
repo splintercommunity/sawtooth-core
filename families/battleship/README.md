@@ -4,7 +4,7 @@ Sawtooth Battleship
 Introduction
 ------------
 
-Sawtooth is an implementation of the game Battleship for the Hyperledger Sawtooth platform. It
+Sawtooth is an implementation of the game Battleship for the Sawtooth platform. It
 provides a transaction processor and CLI.
 
 

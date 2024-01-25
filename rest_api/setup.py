@@ -1,3 +1,4 @@
+# Copyright 2024 Bitwise IO, Inc.
 # Copyright 2017 Intel Corporation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -39,8 +40,8 @@ setup(
     version=subprocess.check_output(
         ['../bin/get_version']).decode('utf-8').strip(),
     description='Sawtooth REST API',
-    author='Hyperledger Sawtooth',
-    url='https://github.com/hyperledger/sawtooth-core',
+    author='Sawtooth',
+    url='https://github.com/splintercommunity/sawtooth-core',
     packages=find_packages(),
     install_requires=[
         'aiodns', 'aiohttp>=2.3.2', 'cchardet', 'protobuf', 'sawtooth-sdk',

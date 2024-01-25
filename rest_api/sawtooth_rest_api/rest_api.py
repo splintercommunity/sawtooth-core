@@ -1,3 +1,4 @@
+# Copyright 2024 Bitwise IO, Inc.
 # Copyright 2016 Intel Corporation
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
@@ -83,7 +84,7 @@ def parse_args(args):
     parser.add_argument(
         '-V', '--version',
         action='version',
-        version=(DISTRIBUTION_NAME + ' (Hyperledger Sawtooth) version {}')
+        version=(DISTRIBUTION_NAME + ' (Sawtooth) version {}')
         .format(version),
         help='display version information')
 

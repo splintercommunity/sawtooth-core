@@ -156,7 +156,7 @@ def main(args):
     except pkg_resources.DistributionNotFound:
         version = 'UNKNOWN'
     LOGGER.info(
-        '%s (Hyperledger Sawtooth) version %s', DISTRIBUTION_NAME, version)
+        '%s (Sawtooth) version %s', DISTRIBUTION_NAME, version)
 
     if LOGGER.isEnabledFor(logging.INFO):
         LOGGER.info(
