@@ -4,16 +4,19 @@ kind: List
 
 items:
 
-- apiVersion: extensions/v1beta1
+- apiVersion: apps/v1
   kind: Deployment
   metadata:
     name: sawtooth-0
   spec:
     replicas: 1
+    selector:
+      matchLabels:
+        app.kubernetes.io/name: sawtooth-0
     template:
       metadata:
         labels:
-          name: sawtooth-0
+          app.kubernetes.io/name: sawtooth-0
       spec:
         containers:
           - name: sawtooth-devmode-engine
